@@ -58,7 +58,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"move_down",
-"speed": 1.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -80,7 +80,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"move_right",
-"speed": 1.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -91,7 +91,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"move_up",
-"speed": 1.0
+"speed": 3.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ylc7b"]
@@ -107,7 +107,7 @@ script = ExtResource("1_yh7mw")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player"]
 position = Vector2(185, 22)
 sprite_frames = SubResource("SpriteFrames_vnwtc")
-animation = &"move_right"
+animation = &"move_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(183, 22)
